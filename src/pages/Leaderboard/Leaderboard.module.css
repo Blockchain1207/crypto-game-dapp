@@ -1,0 +1,28 @@
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  padding: 2px;
+  border-radius: 16px;
+}
+
+.card1 {
+  background: linear-gradient(20deg, #244fa5, #6cf0bb);
+}
+
+.card2 {
+  background: linear-gradient(20deg, #ef46c9, #4a39f7);
+}
+
+.card3 {
+  background: linear-gradient(20deg, #6121a9, #d76643);
+}
+
+.card4 {
+  background: linear-gradient(20deg, #df39c2, #fa9d74);
+}
+
+.card5 {
+  background: linear-gradient(20deg, #e339a4, #fea567);
+}

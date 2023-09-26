@@ -1,0 +1,27 @@
+.card1 {
+  background: linear-gradient(225deg, #7d58e4 0%, #bd32c5 100%);
+}
+
+.smallCard1,
+.smallCard2,
+.smallCard3,
+.smallCard4 {
+  padding: 1px;
+  border-radius: 16px;
+}
+
+.smallCard1 {
+  background: linear-gradient(20deg, #244fa5, #6cf0bb);
+}
+
+.smallCard2 {
+  background: linear-gradient(20deg, #801bdf, #10d7d8);
+}
+
+.smallCard3 {
+  background: linear-gradient(20deg, #801bdf, #10d7d8);
+}
+
+.smallCard4 {
+  background: linear-gradient(20deg, #813efd, #5de0fc);
+}
