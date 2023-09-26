@@ -1,0 +1,47 @@
+.card1,
+.card2,
+.card3,
+.card4 {
+  padding: 2px;
+  border-radius: 16px;
+}
+
+.card5,
+.card6 {
+  padding: 1px;
+  border-radius: 16px;
+}
+
+.card7 {
+  padding-bottom: 2px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.card1 {
+  background: linear-gradient(0deg, #244fa5, #6cf0bb);
+}
+
+.card2 {
+  background: linear-gradient(0deg, #801bdf, #10d7d8);
+}
+
+.card3 {
+  background: linear-gradient(0deg, #ef46c9, #4a39f7);
+}
+
+.card4 {
+  background: linear-gradient(0deg, #244fa5, #6cf0bb);
+}
+
+.card5 {
+  background: linear-gradient(0deg, #6121a9, #d76643);
+}
+
+.card6 {
+  background: linear-gradient(0deg, #df39c2, #fa9d74);
+}
+
+.card7 {
+  background: linear-gradient(-90deg, #bf2e97, #4e6be9);
+}

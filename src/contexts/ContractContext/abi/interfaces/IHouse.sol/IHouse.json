@@ -1,0 +1,180 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IHouse",
+  "sourceName": "contracts/interfaces/IHouse.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "betId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_account",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_gameId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_payout",
+          "type": "uint256"
+        }
+      ],
+      "name": "closeWager",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_id",
+          "type": "uint256"
+        }
+      ],
+      "name": "getBet",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "globalBetId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "playerBetId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "gameId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "rolls",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "betNum",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "stake",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "payout",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bool",
+              "name": "complete",
+              "type": "bool"
+            },
+            {
+              "internalType": "uint256",
+              "name": "opened",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "closed",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256[50]",
+              "name": "data",
+              "type": "uint256[50]"
+            },
+            {
+              "internalType": "address",
+              "name": "player",
+              "type": "address"
+            }
+          ],
+          "internalType": "struct Types.Bet",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_account",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_game",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_rolls",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_bet",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256[50]",
+          "name": "_data",
+          "type": "uint256[50]"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_betSize",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_maxPayout",
+          "type": "uint256"
+        }
+      ],
+      "name": "openWager",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

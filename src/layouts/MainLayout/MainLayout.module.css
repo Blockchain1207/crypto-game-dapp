@@ -1,0 +1,44 @@
+.activeLink {
+  background: radial-gradient(
+      100% 100% at 50% 0%,
+      rgba(231, 16, 14, 0.15) 0%,
+      rgba(231, 16, 14, 0) 100%
+    ),
+    #121627;
+  box-shadow: 0px 4px 32px 0px rgba(8, 8, 28, 0.4);
+}
+
+.activeLink * {
+  color: #be0100;
+}
+
+.link {
+  position: relative;
+}
+
+.link::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  width: 40px;
+  border-radius: 0px 0px 4px 4px;
+  transform: translateX(-50%);
+  top: 0;
+  height: 4px;
+  background: #be0100;
+  box-shadow: 0px 2px 24px 0px rgba(190, 1, 0, 0.4);
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+.activeLink::before {
+  opacity: 1;
+}
+
+.link .active {
+  opacity: 0;
+}
+
+.activeLink .active {
+  opacity: 1;
+}

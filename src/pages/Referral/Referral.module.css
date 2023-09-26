@@ -1,0 +1,33 @@
+.card1,
+.card2,
+.card3,
+.card4 {
+  padding: 2px;
+  border-radius: 16px;
+}
+
+.card5 {
+  padding-bottom: 2px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.card1 {
+  background: linear-gradient(20deg, #6121a9, #d76643);
+}
+
+.card2 {
+  background: linear-gradient(20deg, #801bdf, #10d7d8);
+}
+
+.card3 {
+  background: linear-gradient(20deg, #ef46c9, #4a39f7);
+}
+
+.card4 {
+  background: linear-gradient(20deg, #813efd, #5de0fc);
+}
+
+.card5 {
+  background: linear-gradient(0deg, #6121a9, #d76643);
+}

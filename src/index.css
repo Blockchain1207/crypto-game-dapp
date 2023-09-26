@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply flex justify-start items-center flex-col w-full;
+  }
+  .contain {
+    @apply flex w-[90%] max-w-[1450px];
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@font-face {
+  font-family: "Black Bison";
+  src: url("./assets/fonts/Black\ Bison.ttf");
+}
+
+* {
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  font-size: 18px;
+  overflow-x: hidden;
+}
+html {
+  overflow-x: hidden;
+}
+
+.font-bison,
+.font-bison * {
+  font-family: "Black Bison", sans-serif !important;
+}
+
+.font-jakarta,
+.font-jakarta * {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #232c35;
+  height: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Black Bison", sans-serif;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+@media screen and (max-width: 640px) {
+  h4 {
+    font-size: 26px;
+  }
+}
+
+h6 {
+  font-size: 24px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.nice-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.nice-scrollbar::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.nice-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 4px;
+}

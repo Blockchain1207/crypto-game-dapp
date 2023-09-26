@@ -1,0 +1,45 @@
+.number-hover {
+  border: 1px solid white!important;
+  box-shadow: inset 0px 0px 5px #fff, inset 0 0 5px #fff;
+}
+
+.number-active {
+  /* font-size: 14px !important; */
+  /* font-weight: bold; */
+  color: yellow;
+  box-shadow: inset 0px 0px 2px #263150, inset 0 0 8px #fff;
+}
+
+.button-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px white ;
+  border-radius: 0.5rem;
+  color: white;
+  font-family: "Black Bison", sans-serif !important;
+  font-size: 0.875rem;
+  cursor: pointer;
+  /* margin: 0.5rem; */
+}
+
+@media screen and (max-width: 600px) {
+  .button-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    color: white;
+    border-radius: 0.25rem;
+    
+    font-weight: 200;
+    font-size: 7px;
+    cursor: pointer;
+    /* margin: 0.25rem; */
+  }
+
+  .number-hover {
+    border: 1px solid white!important;
+    box-shadow: inset 0px 0px 2px #fff, inset 0 0 2px #fff;
+  }
+}
